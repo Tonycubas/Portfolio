@@ -53,6 +53,7 @@
       <div id="about" class=" col-md-6">
         <h2>About me</h2><br>
         <h4>I'm Tony Chavez, a very passionate web developer looking to build websites and always happy to keep learning. I have a lot of past experiences working wiht websites and landing pages for businesses. If you are interseted in working with me please message me.</h4><br>
+        <br><button type="button" class="btn btn-warning btn-lg">Get in Touch</button>
       </div>
       <div class="col-md-6">
         <div id="about-img" ><img src="img/IMG_3626.jpg" alt="" class="img-fluid img-thumbnail rounded-circle" alt="100x100"></div>
@@ -67,7 +68,7 @@
   <id id="gallery" class="row text-center slideanim">
     <div class="col-sm-4"  data-bs-toggle="modal" data-bs-target="#my-modal1" >
       <div class="img-thumbnail-1" style="height: 250px;" >
-        <img src="img/Landing Page.png" alt="Paris">
+        <img src="img/Landing-Page.png" alt="Paris">
         <p><strong>Sample landing page</strong></p>
         
       </div>
@@ -94,7 +95,7 @@
       <div class="modal-content">
         <div class="modal-body">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right; margin-bottom: 10px;"></button>
-            <img src="img/Landing Page.png" alt="Paris">
+            <img src="img/Landing-Page.png" alt="Paris">
         </div>
       </div>
     </div>
@@ -125,7 +126,32 @@
  
 
 
-
+<!-- Container (Contact Section) -->
+<form action="contact-form-process.php" method="post" class="form">
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <div class="container mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" name="Name" >
+    </div>
+      <div class="container mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" name="Email">
+      </div>
+      <div class="container mb-3">
+        <label for="email" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="Subject">
+      </div>
+      <div class="container mb-3">
+        <label for="message" class="form-label">Your message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" name="Message" rows="3"></textarea>
+      </div>
+      <div class="container mb-3">
+        <br><input type="submit" value="Send" class=" btn btn-success btn-lg pull-right" ></input>
+      </div>
+      
+  </div>
+</form>
 
 
 
